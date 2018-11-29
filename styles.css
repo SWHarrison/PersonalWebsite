@@ -1,0 +1,143 @@
+body {
+    /*background-image: url("https://www.nps.gov/yose/planyourvisit/images/Pg_15_HetchHetchy_CreditClarisaFlores.jpg?maxwidth=1200&maxheight=1200&autorotate=false");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;*/
+    margin: 1px;
+    font-family: Helvetica
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #eee
+}
+
+h1 {
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 1.75 em;
+    font-family: cursive;
+}
+
+p {
+    font-family: cursive;
+    line-height: 2em
+}
+
+b {
+    color: white;
+    font-weight: bold;
+    background-color: #444;
+    border-left: solid 4px #444;
+    border-right: solid 4px #444;
+}
+
+figure{
+    justify-content: center;
+}
+
+figcaption{
+    justify-content: center;
+    color: grey;
+}
+
+.hero{
+    length: 90%
+    align: center
+}
+
+.wrapper{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /*background-color: #2196F3;*/
+    padding: 40px;
+}
+
+.flexContainerHorz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flexContainerVert {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.flexContainerVertCentered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about{
+    padding: 15px;
+    background-color: #567;
+    width: 100% - 20px;
+    overflow: scroll;
+}
+
+.projects{
+    padding: 15px;
+    background-color: #252;
+    width: 100% - 20px;
+}
+
+.contact{
+    padding: 15px;
+    background-color: blue;
+    width: 100% - 200px;
+}
+
+figcaption{
+    margin-left: 15px;
+}
+
+a {
+    color: black;
+}
+
+/*List styles*/
+li {
+    border-bottom: solid 1px;
+    padding: 2px;
+    font-family: roboto;
+}
+
+li:nth-of-type(7n+1){
+  background-color: #00a
+}
+
+li:nth-of-type(7n+2){
+  background-color: #066
+}
+
+li:nth-of-type(7n+3){
+  background-color: #660
+}
+
+li:nth-of-type(7n+4){
+  background-color: #060
+}
+
+li:nth-of-type(7n+5){
+  background-color: #066
+}
+
+li:nth-of-type(7n+6){
+  background-color: #39f
+}
+
+li:nth-of-type(7n){
+  background-color: #505
+}
